@@ -30,14 +30,12 @@ The software architecture consists of three modular components:
 
 - **Diya Patel:** Lead developer for Part (a). Translated the iterative Python algorithm into optimized MIPS assembly logic for `Fibonacci(n)`.
 - **Daniel:** Configured the initial team GitHub repository structure, branching strategy, and version control guidelines.
-- **Brice:** Authored the initial `README.md` documentation and structured the `.tar` archive packaging workflow.
 - **Daniall:** Constructed initial test cases in MARS to verify base cases (`n = 0` and `n = 1`) and boundary values for `Fibonacci(n)`.
 
 ### Progress Report 2 (Due: November 14, 2026)
 
 - **Daniel:** Lead developer for Part (b). Implemented the Division by Repeated Subtraction (DRS) logic (`division(x, y)`) and the `IsOdd(m)` routine without hardware `DIV` instructions.
 - **Diya Patel:** Optimized register usage and function call conventions across the division subroutines.
-- **Brice:** Updated documentation to reflect Division by Repeated Subtraction implementation details and test cases.
 - **Daniall:** Executed comparative test cases for odd, even, and zero inputs to validate remainder accuracy.
 
 ### Final Report (Due: November 19, 2026)
@@ -45,7 +43,6 @@ The software architecture consists of three modular components:
 - **Diya Patel:** Integrated `Fibonacci(n)` and `IsOdd(m)` into the unified top-level `IsFibonacciOdd(n)` MIPS program.
 - **Daniel:** Managed repository organization, pull request reviews, and code synchronization between local environments and GitHub.
 - **Daniall:** Performed end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
-- **Brice:** Finalized the comprehensive project report, verified repository alignment, generated the release `.tar` bundle, and performed final Canvas submission checks.
 
 ## 🚀 How to Run the MIPS Program in MARS
 
