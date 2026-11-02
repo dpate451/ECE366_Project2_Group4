@@ -8,7 +8,7 @@
 
 - **Diya Patel** (NetID: `dpate451`)
 - **Daniel** (NetID: `[Insert NetID]`)
-- **Brice** (NetID: `[Insert NetID]`)
+- **Brice** (NetID: `bbrid5`)
 - **Daniall** (NetID: `[Insert NetID]`)
 
 ## 🔗 GitHub Repository
