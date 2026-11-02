@@ -8,7 +8,6 @@
 
 - **Diya Patel** (NetID: `dpate451`)
 - **Daniel** (NetID: `ddela23`)
-- **Brice** (NetID: `bbrid5`)
 - **Daniall** (NetID: `dbade2`)
 
 ## 🔗 GitHub Repository
