@@ -6,7 +6,7 @@
 
 ## 👥 Team Members & NetIDs
 
-- **Diya Patel** (NetID: `[Insert NetID]`)
+- **Diya Patel** (NetID: `dpate451`)
 - **Daniel** (NetID: `[Insert NetID]`)
 - **Brice** (NetID: `[Insert NetID]`)
 - **Daniall** (NetID: `[Insert NetID]`)
