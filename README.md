@@ -13,7 +13,7 @@
 
 ## 🔗 GitHub Repository
 
-**Repository Link:** [[https://github.com/your-username/ece366-project2](https://github.com/your-username/ece366-project2)](https://github.com/dpate451/ECE366_Project2_Group4.git)
+**Repository Link:** https://github.com/dpate451/ECE366_Project2_Group4
 
 ## 📌 Project Overview
 
