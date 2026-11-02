@@ -7,7 +7,7 @@
 ## 👥 Team Members & NetIDs
 
 - **Diya Patel** (NetID: `dpate451`)
-- **Daniel** (NetID: `[Insert NetID]`)
+- **Daniel** (NetID: `ddela23`)
 - **Brice** (NetID: `bbrid5`)
 - **Daniall** (NetID: `dbade2`)
 
