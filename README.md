@@ -1,4 +1,3 @@
-# ECE366_Project2_Group4
 # ECE 366 Project 2: Fibonacci Odd-Number Detection in MIPS Assembly
 
 **Course:** ECE 366 - Computer Organization  
