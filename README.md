@@ -29,20 +29,20 @@ The software architecture consists of three modular components:
 ### Progress Report 1 (Due: November 11, 2026)
 
 - **Diya Patel:** Lead developer for Part (a). Translated the iterative Python algorithm into optimized MIPS assembly logic for `Fibonacci(n)`.
-- **Daniel:** Configured the initial team GitHub repository structure, branching strategy, and version control guidelines.
-- **Daniall:** Constructed initial test cases in MARS to verify base cases (`n = 0` and `n = 1`) and boundary values for `Fibonacci(n)`.
+- **Diya Patel:** Configured the initial team GitHub repository structure, branching strategy, and version control guidelines.
+- **Diya Patel:** Constructed initial test cases in MARS to verify base cases (`n = 0` and `n = 1`) and boundary values for `Fibonacci(n)`.
 
 ### Progress Report 2 (Due: November 14, 2026)
 
-- **Daniel:** Lead developer for Part (b). Implemented the Division by Repeated Subtraction (DRS) logic (`division(x, y)`) and the `IsOdd(m)` routine without hardware `DIV` instructions.
-- **Diya Patel:** Optimized register usage and function call conventions across the division subroutines.
+- **Daniall:** Lead developer for Part (b). Implemented the Division by Repeated Subtraction (DRS) logic (`division(x, y)`) and the `IsOdd(m)` routine without hardware `DIV` instructions.
+- **Daniall:** Optimized register usage and function call conventions across the division subroutines.
 - **Daniall:** Executed comparative test cases for odd, even, and zero inputs to validate remainder accuracy.
 
 ### Final Report (Due: November 19, 2026)
 
-- **Diya Patel:** Integrated `Fibonacci(n)` and `IsOdd(m)` into the unified top-level `IsFibonacciOdd(n)` MIPS program.
+- **Daniel:** Integrated `Fibonacci(n)` and `IsOdd(m)` into the unified top-level `IsFibonacciOdd(n)` MIPS program.
 - **Daniel:** Managed repository organization, pull request reviews, and code synchronization between local environments and GitHub.
-- **Daniall:** Performed end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
+- **Daniel:** Performed end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
 
 ## 🚀 How to Run the MIPS Program in MARS
 
