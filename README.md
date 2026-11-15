@@ -37,54 +37,22 @@ The software architecture consists of three modular components:
 - **Daniall:** Lead developer for Part (b). Implemented the Division by Repeated Subtraction (DRS) logic (`division(x, y)`) and the `IsOdd(m)` routine without hardware `DIV` instructions.
 - **Daniall:** Optimized register usage and function call conventions across the division subroutines.
 - **Daniall:** Executed comparative test cases for odd, even, and zero inputs to validate remainder accuracy.
+- To run the MIPS program and verify if m is odd, first open MARS, load IsOdd.asm file, and click Assemble to compile the code into machine instructions. You enter your test dividend value like 3 or 4 directly into the Data Segment memory cell for m, and then click Run to execute the repeated subtraction loop. Once execution completes, you check the memory cell for result, where a value of 1 indicates the number is odd and 0 indicates it is even.
 
 ### Final Report (Due: November 19, 2026)
 
-- **Daniel:** Integrated `Fibonacci(n)` and `IsOdd(m)` into the unified top-level `IsFibonacciOdd(n)` MIPS program.
-- **Daniel:** Managed repository organization, pull request reviews, and code synchronization between local environments and GitHub.
-- **Daniel:** Performed end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
+- **Daniel:** Integrate `Fibonacci(n)` and `IsOdd(m)` into the unified top-level `IsFibonacciOdd(n)` MIPS program.
+- **Daniel:** Manage repository organization, pull request reviews, and code synchronization between local environments and GitHub.
+- **Daniel:** Perform end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
 
-## 🚀 How to Run the MIPS Program in MARS
 
-### Prerequisites
 
-- MARS MIPS Simulator (version 4.5 recommended)
-- Java JDK (version 8 or higher)
 
-### Configuration Steps
 
-1. Launch the **MARS 4.5** simulator.
-2. Open the program file (`isfibonacci_odd.asm`, `fibonacci.asm`, or `is_odd.asm`) through **File > Open**.
-3. Open **Settings** in the top menu and ensure the following options are checked:
-   - `Initialize Program Counter to global 'main' if defined`
-   - `Permit extended (pseudo) instructions and formats`
-   - `Addresses displayed in hexadecimal` (optional)
 
-### Assembling and Executing
 
-1. Press **F3** or click the Wrench and Screwdriver icon to assemble the program.
-2. Ensure the input value `n` is defined in the `.data` memory segment. For example:
 
-   ```asm
-   n: .word 7
-   ```
 
-3. Press **F5** or click the green **Play** button to run the program.
-4. To debug the program line by line, use **F7** to step through instructions. Inspect the **Registers** pane and the **Data Segment** tab to monitor execution.
-5. After execution finishes, check the output:
-   - `1` indicates True: the nth Fibonacci number is odd.
-   - `0` indicates False: the nth Fibonacci number is even.
-   - The result should be stored in the target memory location defined in `.data`. Register `$v0` may also be used to inspect the result if the implementation follows that convention.
-
-## 📦 Tarball Packaging Instructions
-
-To create the required submission archive for Canvas, run the following command in your terminal from the project directory:
-
-```bash
-tar -cvzf progress_report_1.tar.gz fibonacci.asm README.md
-```
-
-Replace `progress_report_1.tar.gz` and the filenames with those required for the appropriate milestone. Ensure that all required source files and documentation are included in the archive.
 
 ## 🧪 Testing and Validation
 
@@ -107,20 +75,6 @@ The program should be tested with several input values to verify the Fibonacci c
 
 ## 📁 Project Files
 
-The project may contain the following files, depending on the implementation and milestone requirements:
-
-- `fibonacci.asm` - Iterative Fibonacci calculation subroutine.
-- `is_odd.asm` - Odd-number detection and repeated-subtraction division logic.
-- `isfibonacci_odd.asm` - Integrated program combining Fibonacci calculation and oddness detection.
-- `README.md` - Project documentation and execution instructions.
-- `progress_report_1.tar.gz` - Example submission archive for Progress Report 1.
-
-## 📚 Tools and Technologies
-
-- **MIPS Assembly Language**
-- **MARS MIPS Simulator**
-- **Git and GitHub**
-- **Java Development Kit (JDK)**
 
 ---
 
