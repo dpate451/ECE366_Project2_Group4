@@ -1,3 +1,4 @@
+
 # ECE 366 Project 2: Fibonacci Odd-Number Detection in MIPS Assembly
 
 **Course:** ECE 366 - Computer Organization  
@@ -37,7 +38,6 @@ The software architecture consists of three modular components:
 - **Daniall:** Lead developer for Part (b). Implemented the Division by Repeated Subtraction (DRS) logic (`division(x, y)`) and the `IsOdd(m)` routine without hardware `DIV` instructions.
 - **Daniall:** Optimized register usage and function call conventions across the division subroutines.
 - **Daniall:** Executed comparative test cases for odd, even, and zero inputs to validate remainder accuracy.
-- To run the MIPS program and verify if m is odd, first open MARS, load IsOdd.asm file, and click Assemble to compile the code into machine instructions. You enter your test dividend value like 3 or 4 directly into the Data Segment memory cell for m, and then click Run to execute the repeated subtraction loop. Once execution completes, you check the memory cell for result, where a value of 1 indicates the number is odd and 0 indicates it is even.
 
 ### Final Report (Due: November 19, 2026)
 
@@ -45,14 +45,19 @@ The software architecture consists of three modular components:
 - **Daniel:** Manage repository organization, pull request reviews, and code synchronization between local environments and GitHub.
 - **Daniel:** Perform end-to-end simulation, boundary testing, and register and memory auditing across diverse values of `n`.
 
+## ▶️ How to Run Each Part in MARS
 
+### Part (a): Fibonacci(n)
 
+To find the nth Fibonacci number for a given `n`, open MARS and load the `Fibonacci.asm` file. Click **Run → Assemble** to assemble the program. Once the program assembles successfully, locate the input variable `n` in the Data Segment and enter the desired non-negative integer. Click **Run → Go** to execute the program. The program will calculate the Fibonacci sequence up to the nth position and store the resulting Fibonacci number in memory. Check the output variable in the Data Segment to see the calculated result.
 
+### Part (b): IsOdd(m)
 
+To determine whether a given number `m` is odd, open MARS and load the `IsOdd.asm` file. Click **Run → Assemble** to assemble the program. Once assembled, locate the input variable `m` in the Data Segment and enter the integer you want to test, such as 3 or 4. Click **Run → Go** to execute the program. The program uses Division by Repeated Subtraction to check the remainder when dividing the number by 2. After execution, check the result variable in the Data Segment. A value of `1` indicates that the number is odd, while `0` indicates that it is even.
 
+### Part (c): IsFibonacciOdd(n)
 
-
-
+To determine whether the nth Fibonacci number is odd, open MARS and load the `IsFibonacciOdd.asm` file. Click **Run → Assemble** to assemble the program. Once assembled, locate the input variable `n` in the Data Segment and enter the desired non-negative integer. Click **Run → Go** to execute the program. The program first calculates the nth Fibonacci number using the Fibonacci subroutine. It then passes that result to the odd-number checking subroutine, which determines whether the Fibonacci number is odd or even. After execution, check the final output variable in the Data Segment. A value of `1` means the nth Fibonacci number is odd, while `0` means it is even.
 
 ## 🧪 Testing and Validation
 
@@ -75,6 +80,10 @@ The program should be tested with several input values to verify the Fibonacci c
 
 ## 📁 Project Files
 
+- `Fibonacci.asm` – Part (a): Calculates the nth Fibonacci number.
+- `IsOdd.asm` – Part (b): Determines whether a given integer is odd or even.
+- `IsFibonacciOdd.asm` – Part (c): Determines whether the nth Fibonacci number is odd or even.
+- `README.md` – Project description, team contributions, and instructions for running each program.
 
 ---
 
